@@ -50,7 +50,7 @@ public class XUrlMain {
 
     // Delete mapping for the long URL and confirm that the short URL lookup for that long URL returns null
     xUrl.delete("http://abc6.com");
-    assert(xUrl.getUrl(url6) == null);
+    assert(xUrl.getUrl(url6) == null);   
   }
 }
 
